@@ -52,7 +52,7 @@ The preprocessing includes:
 
 The cleaned dataset is saved as:cleaned_product_details.csv
 Shipping Weight Processing
-The `shipping_weight` field contains weight information along with units.
+The shipping_weight field contains weight information along with units.
 The preprocessing separates the information into:
  Numerical weight value
  Weight unit
@@ -91,8 +91,8 @@ Missing values are identified using Pandas.
 Depending on the type and purpose of the column:
 
  Completely empty columns are removed
- Missing text values are replaced with "unknown"`
- Missing numerical values are replaced with `0`
+ Missing text values are replaced with "unknown"
+ Missing numerical values are replaced with 0
  Missing selling prices are handled appropriately
 
 Duplicate Detection
@@ -133,9 +133,3 @@ The main objectives of this project are:
 10. Perform meaningful e-commerce data analysis using SQL.
 
 
-
-**Current Stage:** Python Data Cleaning & Preprocessing ✅
-
-**Next Stage:** SQL Data Analysis
-
-The cleaned datasets generated through Python will be used as the primary input for the SQL analysis stage.
