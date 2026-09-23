@@ -132,4 +132,11 @@ The main objectives of this project are:
 9. Import the cleaned datasets into SQL.
 10. Perform meaningful e-commerce data analysis using SQL.
 
+------------------------------------
+SQL
 
+Designed and implemented a Star Schema data warehouse from 3 cleaned Python datasets, to create dimension tables (dim_customer, dim_product, dim_date, dim_promotion,dim_shipping) and 2 fact tables (fact_sales, fact_interaction). 
+
+Wrote complex ETL queries using INSERT INTO & SELECT pipelines to transform raw records into a centralized relational structure.
+
+Developed 15 advanced analytical SQL queries utilizing multi-table joins, aggregations, and ranking functions to deliver actionable business insights on customer segmentation, subscription revenue impact, and product performance.
